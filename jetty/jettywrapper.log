@@ -1,0 +1,146 @@
+0    [main] INFO  org.eclipse.jetty.server.Server  – jetty-8.1.10.v20130312
+17   [main] INFO  org.eclipse.jetty.deploy.providers.ScanningAppProvider  – Deployment monitor /home/rob/web/playing/backlight_play/jetty/contexts at interval 0
+21   [main] INFO  org.eclipse.jetty.deploy.DeploymentManager  – Deployable added: /home/rob/web/playing/backlight_play/jetty/contexts/solr.xml
+56   [main] INFO  org.eclipse.jetty.webapp.WebInfConfiguration  – Extract jar:file:/home/rob/web/playing/backlight_play/jetty/webapps/solr.war!/ to /home/rob/web/playing/backlight_play/jetty/solr-webapp/webapp
+1101 [main] INFO  org.eclipse.jetty.webapp.StandardDescriptorProcessor  – NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+1151 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init()
+1176 [main] INFO  org.apache.solr.core.SolrResourceLoader  – JNDI not configured for solr (NoInitialContextEx)
+1177 [main] INFO  org.apache.solr.core.SolrResourceLoader  – using system property solr.solr.home: /home/rob/web/playing/backlight_play/jetty/solr
+1177 [main] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/rob/web/playing/backlight_play/jetty/solr/'
+1178 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/rob/web/playing/backlight_play/jetty/solr/lib/solr-langid-4.10.3.jar' to classloader
+1179 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/rob/web/playing/backlight_play/jetty/solr/lib/contrib/' to classloader
+1179 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/rob/web/playing/backlight_play/jetty/solr/lib/solr-clustering-4.10.3.jar' to classloader
+1179 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/rob/web/playing/backlight_play/jetty/solr/lib/solr-analysis-extras-4.10.3.jar' to classloader
+1285 [main] INFO  org.apache.solr.core.ConfigSolr  – Loading container configuration from /home/rob/web/playing/backlight_play/jetty/solr/solr.xml
+1374 [main] INFO  org.apache.solr.core.CoresLocator  – Config-defined core root directory: /home/rob/web/playing/backlight_play/jetty/solr
+1380 [main] INFO  org.apache.solr.core.CoreContainer  – New CoreContainer 1296726923
+1381 [main] INFO  org.apache.solr.core.CoreContainer  – Loading cores into CoreContainer [instanceDir=/home/rob/web/playing/backlight_play/jetty/solr/]
+1382 [main] INFO  org.apache.solr.core.CoreContainer  – loading shared library: /home/rob/web/playing/backlight_play/jetty/solr/lib
+1382 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/rob/web/playing/backlight_play/jetty/solr/lib/solr-langid-4.10.3.jar' to classloader
+1382 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/rob/web/playing/backlight_play/jetty/solr/lib/contrib/' to classloader
+1383 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/rob/web/playing/backlight_play/jetty/solr/lib/solr-clustering-4.10.3.jar' to classloader
+1383 [main] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/rob/web/playing/backlight_play/jetty/solr/lib/solr-analysis-extras-4.10.3.jar' to classloader
+1399 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting socketTimeout to: 0
+1400 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting urlScheme to: null
+1403 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting connTimeout to: 0
+1403 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxConnectionsPerHost to: 20
+1403 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting corePoolSize to: 0
+1403 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maximumPoolSize to: 2147483647
+1403 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting maxThreadIdleTime to: 5
+1404 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting sizeOfQueue to: -1
+1404 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  – Setting fairnessPolicy to: false
+1707 [main] INFO  org.apache.solr.update.UpdateShardHandler  – Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=false
+1709 [main] INFO  org.apache.solr.logging.LogWatcher  – SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+1709 [main] INFO  org.apache.solr.logging.LogWatcher  – Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+1710 [main] INFO  org.apache.solr.core.CoreContainer  – Host Name: 
+1734 [main] INFO  org.apache.solr.core.CoresLocator  – Looking for core definitions underneath /home/rob/web/playing/backlight_play/jetty/solr
+1741 [main] INFO  org.apache.solr.core.CoresLocator  – Found core blacklight-core in /home/rob/web/playing/backlight_play/jetty/solr/blacklight-core/
+1742 [main] INFO  org.apache.solr.core.CoresLocator  – Found 1 core definitions
+1744 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – new SolrResourceLoader for directory: '/home/rob/web/playing/backlight_play/jetty/solr/blacklight-core/'
+1775 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrConfig  – Adding specified lib dirs to ClassLoader
+1776 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/rob/web/playing/backlight_play/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-stemming-1.7.1.jar' to classloader
+1776 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/rob/web/playing/backlight_play/jetty/solr/lib/contrib/analysis-extras/lib/icu4j-53.1.jar' to classloader
+1776 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/rob/web/playing/backlight_play/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-fsa-1.7.1.jar' to classloader
+1776 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/rob/web/playing/backlight_play/jetty/solr/lib/contrib/analysis-extras/lib/morfologik-polish-1.7.1.jar' to classloader
+1776 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/rob/web/playing/backlight_play/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-stempel-4.10.3.jar' to classloader
+1777 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/rob/web/playing/backlight_play/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-smartcn-4.10.3.jar' to classloader
+1777 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/rob/web/playing/backlight_play/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-icu-4.10.3.jar' to classloader
+1777 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  – Adding 'file:/home/rob/web/playing/backlight_play/jetty/solr/lib/contrib/analysis-extras/lucene-libs/lucene-analyzers-morfologik-4.10.3.jar' to classloader
+1846 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrConfig  – Using Lucene MatchVersion: 4.0.0
+1929 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.Config  – Loaded SolrConfig: solrconfig.xml
+1933 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – Reading Solr Schema from /home/rob/web/playing/backlight_play/jetty/solr/blacklight-core/conf/schema.xml
+1967 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – [blacklight-core] Schema name=Blacklight Demo Index
+2069 [coreLoadExecutor-5-thread-1] WARN  org.apache.solr.core.SolrResourceLoader  – Solr loaded a deprecated plugin/analysis class [solr.IntField]. Please consult documentation how to replace it accordingly.
+2077 [coreLoadExecutor-5-thread-1] WARN  org.apache.solr.core.SolrResourceLoader  – Solr loaded a deprecated plugin/analysis class [solr.LongField]. Please consult documentation how to replace it accordingly.
+2080 [coreLoadExecutor-5-thread-1] WARN  org.apache.solr.core.SolrResourceLoader  – Solr loaded a deprecated plugin/analysis class [solr.FloatField]. Please consult documentation how to replace it accordingly.
+2083 [coreLoadExecutor-5-thread-1] WARN  org.apache.solr.core.SolrResourceLoader  – Solr loaded a deprecated plugin/analysis class [solr.DoubleField]. Please consult documentation how to replace it accordingly.
+2085 [coreLoadExecutor-5-thread-1] WARN  org.apache.solr.core.SolrResourceLoader  – Solr loaded a deprecated plugin/analysis class [solr.DateField]. Please consult documentation how to replace it accordingly.
+2182 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – default search field in schema is text
+2183 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – query parser default operator is OR
+2183 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  – unique key field: id
+2257 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CoreContainer  – Creating SolrCore 'blacklight-core' using configuration from instancedir /home/rob/web/playing/backlight_play/jetty/solr/blacklight-core/
+2268 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – solr.StandardDirectoryFactory
+2278 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] Opening new SolrCore at /home/rob/web/playing/backlight_play/jetty/solr/blacklight-core/, dataDir=/home/rob/web/playing/backlight_play/jetty/solr/blacklight-core/data/
+2278 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – JMX monitoring not detected for core: blacklight-core
+2285 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/rob/web/playing/backlight_play/jetty/solr/blacklight-core/data
+2287 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – New index directory detected: old=null new=/home/rob/web/playing/backlight_play/jetty/solr/blacklight-core/data/index/
+2287 [coreLoadExecutor-5-thread-1] WARN  org.apache.solr.core.SolrCore  – [blacklight-core] Solr index directory '/home/rob/web/playing/backlight_play/jetty/solr/blacklight-core/data/index' doesn't exist. Creating new index...
+2293 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  – return new directory for /home/rob/web/playing/backlight_play/jetty/solr/blacklight-core/data/index
+2325 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=/home/rob/web/playing/backlight_play/jetty/solr/blacklight-core/data/index,segFN=segments_1,generation=1}
+2326 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
+2374 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – no updateRequestProcessorChain defined as default, creating implicit default
+2379 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update: org.apache.solr.handler.UpdateRequestHandler
+2379 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update/json: org.apache.solr.handler.UpdateRequestHandler
+2379 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+2379 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+2379 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.ReplicationHandler
+2380 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /replication: solr.ReplicationHandler
+2382 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created standard: solr.StandardRequestHandler
+2382 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+2382 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /analysis/field: solr.FieldAnalysisRequestHandler
+2383 [coreLoadExecutor-5-thread-1] WARN  org.apache.solr.core.RequestHandlers  – Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+2383 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /update: solr.UpdateRequestHandler
+2383 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/: org.apache.solr.handler.admin.AdminHandlers
+2385 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created /admin/ping: solr.PingRequestHandler
+2387 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created search: solr.SearchHandler
+2387 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created document: solr.SearchHandler
+2387 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  – created advanced: solr.SearchHandler
+2399 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+2401 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+2401 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+2401 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+2402 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  – xsltCacheLifetimeSeconds=60
+2407 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – Hard AutoCommit: disabled
+2408 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – Soft AutoCommit: disabled
+2412 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/rob/web/playing/backlight_play/jetty/solr/blacklight-core/data/index,segFN=segments_1,generation=1}
+2413 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 1
+2417 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.search.SolrIndexSearcher  – Opening Searcher@6a6ba168[blacklight-core] main
+2422 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResourceStorage  – File-based storage initialized to use dir: /home/rob/web/playing/backlight_play/jetty/solr/blacklight-core/conf
+2422 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.RestManager  – Initializing RestManager with initArgs: {storageDir=/home/rob/web/playing/backlight_play/jetty/solr/blacklight-core/conf}
+2428 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResourceStorage  – Reading _rest_managed.json using file:dir=/home/rob/web/playing/backlight_play/jetty/solr/blacklight-core/conf
+2431 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResourceStorage  – Loaded LinkedHashMap at path _rest_managed.json using file:dir=/home/rob/web/playing/backlight_play/jetty/solr/blacklight-core/conf
+2431 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResource  – Loaded initArgs {} for /rest/managed
+2431 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.RestManager  – Initializing 0 registered ManagedResources
+2431 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Initializing spell checkers
+2439 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: default
+2443 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: author
+2447 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: subject
+2451 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Registering newSearcher listener for spellchecker: title
+2451 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – No queryConverter defined, using default converter
+2460 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CoreContainer  – registering core: blacklight-core
+2460 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] Registered new searcher Searcher@6a6ba168[blacklight-core] main{StandardDirectoryReader(segments_1:1:nrt)}
+2461 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – user.dir=/home/rob/web/playing/backlight_play/jetty
+2461 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  – SolrDispatchFilter.init() done
+2478 [main] INFO  org.eclipse.jetty.server.AbstractConnector  – Started SocketConnector@0.0.0.0:8983
+15777 [qtp1402652377-12] INFO  /solr  – No JSP support.  Check that JSP jars are in lib/jsp and that the JSP option has been specified to start.jar
+16542 [qtp1402652377-14] INFO  org.apache.solr.update.processor.LogUpdateProcessor  – [blacklight-core] webapp=/solr path=/update params={wt=xml&version=2.2} {add=[00282214, 00282371, 00313831, 00314247, 43037890, 53029833, 77826928, 78908283, 79930185, 85910001, ... (30 adds)]} 0 315
+16581 [qtp1402652377-14] INFO  org.apache.solr.update.UpdateHandler  – start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+16703 [qtp1402652377-14] INFO  org.apache.solr.core.SolrCore  – SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=/home/rob/web/playing/backlight_play/jetty/solr/blacklight-core/data/index,segFN=segments_1,generation=1}
+	commit{dir=/home/rob/web/playing/backlight_play/jetty/solr/blacklight-core/data/index,segFN=segments_2,generation=2}
+16703 [qtp1402652377-14] INFO  org.apache.solr.core.SolrCore  – newest commit generation = 2
+16723 [qtp1402652377-14] INFO  org.apache.solr.search.SolrIndexSearcher  – Opening Searcher@6b06eae3[blacklight-core] main
+16725 [qtp1402652377-14] INFO  org.apache.solr.update.UpdateHandler  – end_commit_flush
+16726 [searcherExecutor-6-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Building spell index for spell checker: default
+16911 [searcherExecutor-6-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Building spell index for spell checker: author
+16957 [searcherExecutor-6-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Building spell index for spell checker: subject
+17021 [searcherExecutor-6-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  – Building spell index for spell checker: title
+17126 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] Registered new searcher Searcher@6b06eae3[blacklight-core] main{StandardDirectoryReader(segments_1:3:nrt _0(4.10.3):C30)}
+17126 [qtp1402652377-14] INFO  org.apache.solr.update.processor.LogUpdateProcessor  – [blacklight-core] webapp=/solr path=/update params={waitSearcher=true&commit=true&wt=xml&waitFlush=true&version=2.2} {commit=} 0 545
+36121 [qtp1402652377-15] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=pub_date,memSize=4548,tindexSize=44,time=1,phase1=1,nTerms=22,bigTerms=1,termInstances=26,uses=0}
+36125 [qtp1402652377-15] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=subject_topic_facet,memSize=4473,tindexSize=58,time=1,phase1=1,nTerms=45,bigTerms=0,termInstances=50,uses=0}
+36126 [qtp1402652377-15] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=language_facet,memSize=4553,tindexSize=46,time=0,phase1=0,nTerms=12,bigTerms=1,termInstances=25,uses=0}
+36127 [qtp1402652377-15] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=lc_1letter_facet,memSize=4949,tindexSize=76,time=0,phase1=0,nTerms=9,bigTerms=4,termInstances=8,uses=0}
+36129 [qtp1402652377-15] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=subject_geo_facet,memSize=4465,tindexSize=57,time=0,phase1=0,nTerms=20,bigTerms=0,termInstances=23,uses=0}
+36130 [qtp1402652377-15] INFO  org.apache.solr.core.SolrCore  – UnInverted multi-valued field {field=subject_era_facet,memSize=4453,tindexSize=45,time=0,phase1=0,nTerms=6,bigTerms=0,termInstances=10,uses=0}
+36138 [qtp1402652377-15] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={facet=true&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&facet.query=pub_date:[2010+TO+*]&facet.query=pub_date:[2005+TO+*]&facet.query=pub_date:[1990+TO+*]&f.subject_topic_facet.facet.limit=21&f.language_facet.facet.limit=11&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&qt=search&wt=ruby&facet.pivot=format,language_facet&rows=10} hits=30 status=0 QTime=92 
+99108 [qtp1402652377-16] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={facet=true&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&facet.query=pub_date:[2010+TO+*]&facet.query=pub_date:[2005+TO+*]&facet.query=pub_date:[1990+TO+*]&f.subject_topic_facet.facet.limit=21&f.language_facet.facet.limit=11&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&qt=search&wt=ruby&fq={!raw+f%3Dformat}Book&facet.pivot=format,language_facet&rows=10} hits=30 status=0 QTime=15 
+108900 [qtp1402652377-17] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={facet=true&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&facet.query=pub_date:[2010+TO+*]&facet.query=pub_date:[2005+TO+*]&facet.query=pub_date:[1990+TO+*]&f.subject_topic_facet.facet.limit=21&f.language_facet.facet.limit=11&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&qt=search&wt=ruby&fq={!raw+f%3Dformat}Book&fq={!tag%3Dpub_date_single}pub_date:1990&facet.pivot=format,language_facet&rows=10} hits=2 status=0 QTime=11 
+116290 [qtp1402652377-18] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={facet=true&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&facet.query=pub_date:[2010+TO+*]&facet.query=pub_date:[2005+TO+*]&facet.query=pub_date:[1990+TO+*]&f.subject_topic_facet.facet.limit=21&f.language_facet.facet.limit=11&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&qt=search&wt=ruby&fq={!raw+f%3Dformat}Book&fq={!tag%3Dpub_date_single}pub_date:1990&fq={!raw+f%3Dsubject_topic_facet}Law&facet.pivot=format,language_facet&rows=10} hits=1 status=0 QTime=9 
+134180 [qtp1402652377-14] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={facet=true&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&facet.query=pub_date:[2010+TO+*]&facet.query=pub_date:[2005+TO+*]&facet.query=pub_date:[1990+TO+*]&f.subject_topic_facet.facet.limit=21&f.language_facet.facet.limit=11&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&qt=search&wt=ruby&fq={!tag%3Dpub_date_single}pub_date:1990&fq={!raw+f%3Dsubject_topic_facet}Law&facet.pivot=format,language_facet&rows=10} hits=1 status=0 QTime=8 
+135641 [qtp1402652377-12] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={facet=true&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&facet.query=pub_date:[2010+TO+*]&facet.query=pub_date:[2005+TO+*]&facet.query=pub_date:[1990+TO+*]&f.subject_topic_facet.facet.limit=21&f.language_facet.facet.limit=11&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&qt=search&wt=ruby&fq={!raw+f%3Dsubject_topic_facet}Law&facet.pivot=format,language_facet&rows=10} hits=1 status=0 QTime=10 
+137316 [qtp1402652377-15] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={facet=true&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&facet.query=pub_date:[2010+TO+*]&facet.query=pub_date:[2005+TO+*]&facet.query=pub_date:[1990+TO+*]&f.subject_topic_facet.facet.limit=21&f.language_facet.facet.limit=11&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&qt=search&wt=ruby&facet.pivot=format,language_facet&rows=10} hits=30 status=0 QTime=9 
+158647 [qtp1402652377-16] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={facet=true&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&facet.query=pub_date:[2010+TO+*]&facet.query=pub_date:[2005+TO+*]&facet.query=pub_date:[1990+TO+*]&f.subject_topic_facet.facet.limit=21&q=foo&f.language_facet.facet.limit=11&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&qt=search&wt=ruby&facet.pivot=format,language_facet&rows=10} hits=0 status=0 QTime=21 
+930137 [qtp1402652377-16] INFO  org.apache.solr.core.SolrCore  – [blacklight-core] webapp=/solr path=/select params={facet=true&sort=score+desc,+pub_date_sort+desc,+title_sort+asc&facet.query=pub_date:[2010+TO+*]&facet.query=pub_date:[2005+TO+*]&facet.query=pub_date:[1990+TO+*]&f.subject_topic_facet.facet.limit=21&f.language_facet.facet.limit=11&facet.field=format&facet.field={!ex%3Dpub_date_single}pub_date&facet.field=subject_topic_facet&facet.field=language_facet&facet.field=lc_1letter_facet&facet.field=subject_geo_facet&facet.field=subject_era_facet&qt=search&wt=ruby&facet.pivot=format,language_facet&rows=10} hits=30 status=0 QTime=9 

@@ -34,3 +34,9 @@ group :development, :test do
 end
 
 gem "blacklight"
+
+gem 'rsolr', '~> 1.0.6'
+gem 'jettywrapper', '>= 2.0'
+gem 'devise'
+gem 'devise-guests', '~> 0.3'
+gem 'blacklight-marc', '~> 5.0'
