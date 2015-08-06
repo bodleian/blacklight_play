@@ -1,0 +1,27 @@
+#footer {
+	width: 100%;
+
+  .logo {
+    margin-bottom: 5px;
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  .foot_img {
+    background: #002147;
+    height: 50px; width: 150px;
+    margin-bottom: 1px;
+
+    img {
+      border: 0;
+    }
+  }
+
+  .logo span {
+    font-size: 10px;
+  }
+
+  .footer_list {
+    text-align: center;
+  }
+}

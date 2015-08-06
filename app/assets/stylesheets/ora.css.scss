@@ -1,0 +1,38 @@
+#content, .coloured_panel { 
+  background:rgba(255,255,255,0.9);  
+}
+
+.coloured_panel {
+  
+  padding: 1em;
+  
+  
+  h2 {
+    font-size: 120%;
+  }
+  
+  
+  .disclaimer {
+    text-align: center;
+  }
+  
+}
+
+.main_panel {
+  
+  ul {
+    
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    
+    li {
+      border-bottom: #000 thin dashed;
+      font-size: 90%;
+      margin-bottom: 1em;
+      padding-bottom: 1em;
+    }
+  
+  }
+  
+}

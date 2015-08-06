@@ -11,8 +11,8 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery_ujs//
-// Required by Blacklight
+//= require jquery_ujs
 //= require blacklight/blacklight
 
 //= require_tree .
+
